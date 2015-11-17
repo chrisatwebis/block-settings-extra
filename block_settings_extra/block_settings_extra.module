@@ -32,7 +32,7 @@ function block_settings_extra_form_block_admin_configure_alter(&$form, &$form_st
     '#title' => t('Anchor'),
     '#weight' => -19,
     '#collapsible' => TRUE,
-    '#collapsed' => FALSE,
+    '#collapsed' => TRUE,
     '#attributes' => array(
       'class' => array('block-settings-extra-anchor'),
     ),
